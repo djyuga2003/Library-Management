@@ -1,0 +1,54 @@
+body{
+    background-image: url('pexels-olena-bohovyk-3646172.jpg');
+    background-repeat: no-repeat;
+    font-family: "Bruno Ace SC",sans-serif;
+    background-position: center;
+}
+
+.card {
+    text-align: center;
+    margin-top: 100px;
+}
+
+nav {
+    background-color: black;
+    height : 50px;
+    width: auto;
+    margin: auto;
+    position: relative;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.search {
+    float: right;
+    margin-top: -10px;
+}
+
+
+input{
+    font-family: "Sofia",sans-serif;
+    width: 290px;
+    border: 3px solid;
+    padding: 10px;
+    border-color: white;
+    border-radius: 1.5em;
+}
+
+h1{
+    color: white;
+}
+.search-bar{
+    margin-top: -20px;
+}
+
+button{
+    height: 48px;
+    width: 49px;
+    border-radius: 1.5em;
+}
