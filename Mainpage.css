@@ -3,6 +3,8 @@ body{
     background-repeat: no-repeat;
     font-family: "Bruno Ace SC",sans-serif;
     background-position: center;
+    color: aliceblue;
+    align-items: center;
 }
 
 .card {
@@ -16,6 +18,28 @@ nav {
     width: auto;
     margin: auto;
     position: relative;
+}
+
+.book-list{
+    width : 915px;
+    height: 525px;
+    background-color: grey;
+    opacity: 95%;
+    margin: auto;
+    margin-top: 50px;
+    overflow-y: scroll;
+    border-radius: 1.5em;
+    padding : 5px;
+}
+
+.book-list::-webkit-scrollbar{
+    display: none;
+}
+
+
+input#check-box{
+    float : right;
+    width: 50px;
 }
 
 .topnav a{
@@ -32,7 +56,7 @@ nav {
 
 
 input{
-    font-family: "Sofia",sans-serif;
+    font-family: "Bruno Ace SC",sans-serif;
     width: 290px;
     border: 3px solid;
     padding: 10px;
@@ -43,6 +67,10 @@ input{
 h1{
     color: white;
 }
+
+h4{
+    width: 120px;
+}
 .search-bar{
     margin-top: -20px;
 }
@@ -51,4 +79,19 @@ button{
     height: 48px;
     width: 49px;
     border-radius: 1.5em;
+}
+
+.book{
+    display: inline-flex;
+    
+
+}
+
+.proceed {
+    float: right;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    opacity: 70%;
+    font-family: "Bruno Ace SC",sans-serif;
 }
