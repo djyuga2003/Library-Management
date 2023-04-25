@@ -1,0 +1,57 @@
+body{
+    background-image: url('pexels-olena-bohovyk-3646172.jpg');
+    background-repeat: no-repeat;
+    font-family: "Bruno Ace SC",sans-serif;
+    background-position: center;
+    color: aliceblue;
+    align-items: center;
+
+}
+
+.container {
+    background-color: black;
+    opacity: 70%;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+}
+
+.book-name{
+    padding: 5px;
+}
+
+.back-button{
+    height: 50px;
+    width: 100px;
+    opacity: 75%;
+    color: grey;
+    border-radius: 1.5em;
+    font-size: large;
+    font-family: "Bruno Ace SC",sans-serif;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.proceed-button{
+    height: 50px;
+    width: 100px;
+    opacity: 75%;
+    color: grey;
+    border-radius: 1.5em;
+    font-size: large;
+    font-family: "Bruno Ace SC",sans-serif;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
