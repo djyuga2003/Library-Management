@@ -1,0 +1,23 @@
+body{
+    background-image: url('pexels-olena-bohovyk-3646172.jpg');
+    background-repeat: no-repeat;
+    font-family: "Bruno Ace SC",sans-serif;
+    background-position: center;
+    color: aliceblue;
+    align-items: center;
+
+}
+
+
+.container {
+    background-color: black;
+    opacity: 70%;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    padding: 25px;
+}
